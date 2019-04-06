@@ -12,7 +12,7 @@ footer{
 				width: 100%;
 			}
 		}
-		div.footer_contacts{
+		div.contacts{
 			display: grid;
 			grid-template-columns: 365px 365px;
 			justify-content: flex-end;
@@ -44,7 +44,7 @@ footer{
 					}
 				}
 			}
-			div.footer_socials{
+			div.socials{
 				background-color: #333;
 				display: flex;
 				div.social_icons{

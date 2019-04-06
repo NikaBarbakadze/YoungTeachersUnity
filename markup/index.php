@@ -1,6 +1,6 @@
 <?php include("blocks/header.php"); ?>
-<section class="front_slidernews trans-all-4">
-	<div class="container">
+<section class="front_news">
+	<div class="container trans-all-4">
 	    <div class="news">
 		    <div class="news_title">
 			    <h4>ბოლო სიახლეები</h4>
@@ -11,7 +11,7 @@
 				    	<figure>
 				    		<img src="themes/images/slider1.png">
 				    	</figure>
-				    	<div class="list_item">
+				    	<div class="news_list_item">
 				    		<h5>
 				    			<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 				    		</h5>
@@ -22,7 +22,7 @@
 				    	<figure>
 				    		<img src="themes/images/slider3.jpg">
 				    	</figure>
-				    	<div class="list_item">
+				    	<div class="news_list_item">
 				    		<h5>
 				    			<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 				    		</h5>
@@ -33,7 +33,7 @@
 				    	<figure>
 				    		<img src="themes/images/slider1.png">
 				    	</figure>
-				    	<div class="list_item">
+				    	<div class="news_list_item">
 				    		<h5>
 				    			<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 				    		</h5>
@@ -44,7 +44,7 @@
 				    	<figure>
 				    		<img src="themes/images/slider3.jpg">
 				    	</figure>
-				    	<div class="list_item">
+				    	<div class="news_list_item">
 				    		<h5>
 				    			<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 				    		</h5>
@@ -55,7 +55,7 @@
 				    	<figure>
 				    		<img src="themes/images/slider1.png">
 				    	</figure>
-				    	<div class="list_item">
+				    	<div class="news_list_item">
 				    		<h5>
 				    			<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 				    		</h5>
@@ -66,81 +66,81 @@
 		    </div>
 	    </div>
 	    <div class="slider trans-all-4">
-	    	<div class="main_slider">
-	    		<div class="mainslider_item">
+	    	<div class="news_slider">
+	    		<div class="news_slider_item">
 	    			<div class="poster_wrap">
 	    			    <img src="themes/images/slider2.png">
 	    			</div>
-	    			<div class="slide_inside trans-all-4">
-	    				<div class="slide_title">
+	    			<div class="inside_slide trans-all-4">
+	    				<div class="news_slide_title">
 	    					<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 	    				</div>
-	    				<div class="slide_paragraph">
+	    				<div class="news_slide_paragraph">
 	    					<a href="#"> მოზარდთა სამოქალაქო ცნობიერების ამაღლება, სკოლების დემოკრატიზაციის ხელშეწყობა, სოციალურად დაუცველ მოზარდთა კეთილდღეობის ხელშეწყობა...</a>
 	    				</div>
 	    			</div>	
 	    		</div>
-	    		<div class="mainslider_item">
+	    		<div class="news_slider_item">
 	    			<div class="poster_wrap">
 	    			    <img src="themes/images/slider1.png">
 	    			</div>
-	    			<div class="slide_inside">
-	    				<div class="slide_title">
+	    			<div class="inside_slide">
+	    				<div class="news_slide_title">
 	    					<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 	    				</div>
-	    				<div class="slide_paragraph">
+	    				<div class="news_slide_paragraph">
 	    					<a href="#"> მოზარდთა სამოქალაქო ცნობიერების ამაღლება, სკოლების დემოკრატიზაციის ხელშეწყობა, სოციალურად დაუცველ მოზარდთა კეთილდღეობის ხელშეწყობა...</a>
 	    				</div>
 	    			</div>	
 	    		</div>	    		
-	    		<div class="mainslider_item">
+	    		<div class="news_slider_item">
 	    			<div class="poster_wrap">
 	    			    <img src="themes/images/slider3.jpg">
 	    			</div>
-	    			<div class="slide_inside">
-	    				<div class="slide_title">
+	    			<div class="inside_slide">
+	    				<div class="news_slide_title">
 	    					<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 	    				</div>
-	    				<div class="slide_paragraph">
+	    				<div class="news_slide_paragraph">
 	    					<a href="#"> მოზარდთა სამოქალაქო ცნობიერების ამაღლება, სკოლების დემოკრატიზაციის ხელშეწყობა, სოციალურად დაუცველ მოზარდთა კეთილდღეობის ხელშეწყობა...</a>
 	    				</div>
 	    			</div>	
 	    		</div>
-	    		<div class="mainslider_item">
+	    		<div class="news_slider_item">
 	    			<div class="poster_wrap">
 	    			    <img src="themes/images/slider2.png">
 	    			</div>
-	    			<div class="slide_inside">
-	    				<div class="slide_title">
+	    			<div class="inside_slide">
+	    				<div class="news_slide_title">
 	    					<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 	    				</div>
-	    				<div class="slide_paragraph">
+	    				<div class="news_slide_paragraph">
 	    					<a href="#"> მოზარდთა სამოქალაქო ცნობიერების ამაღლება, სკოლების დემოკრატიზაციის ხელშეწყობა, სოციალურად დაუცველ მოზარდთა კეთილდღეობის ხელშეწყობა...</a>
 	    				</div>
 	    			</div>	
 	    		</div>	
-	    		<div class="mainslider_item">
+	    		<div class="news_slider_item">
 	    			<div class="poster_wrap">
 	    			    <img src="themes/images/slider1.png">
 	    			</div>
-	    			<div class="slide_inside">
-	    				<div class="slide_title">
+	    			<div class="inside_slide">
+	    				<div class="news_slide_title">
 	    					<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 	    				</div>
-	    				<div class="slide_paragraph">
+	    				<div class="news_slide_paragraph">
 	    					<a href="#"> მოზარდთა სამოქალაქო ცნობიერების ამაღლება, სკოლების დემოკრატიზაციის ხელშეწყობა, სოციალურად დაუცველ მოზარდთა კეთილდღეობის ხელშეწყობა...</a>
 	    				</div>
 	    			</div>	
 	    		</div>
-	    		<div class="mainslider_item">
+	    		<div class="news_slider_item">
 	    			<div class="poster_wrap">
 	    			    <img src="themes/images/slider3.jpg">
 	    			</div>
-	    			<div class="slide_inside">
-	    				<div class="slide_title">
+	    			<div class="inside_slide">
+	    				<div class="news_slide_title">
 	    					<a href="#">ახალგაზრდა პედაგოგთა კავშირი</a>
 	    				</div>
-	    				<div class="slide_paragraph">
+	    				<div class="news_slide_paragraph">
 	    					<a href="#"> მოზარდთა სამოქალაქო ცნობიერების ამაღლება, სკოლების დემოკრატიზაციის ხელშეწყობა, სოციალურად დაუცველ მოზარდთა კეთილდღეობის ხელშეწყობა...</a>
 	    				</div>
 	    			</div>	
@@ -149,13 +149,13 @@
 	    </div>
     </div>
 </section>
-<section class="front_volunteers trans-all-2">
-	<div class="container">
+<section class="front_volunteers">
+	<div class="container trans-all-2">
 	    <div class="user_icon">
 		    <img src="themes/images/user.png">
 	    </div>
-	    <div class="slider_wrap">
-		    <div class="slider_title">
+	    <div class="volunt_slider_wrap">
+		    <div class="volunt_slider_title">
 			    <h4>
 				    <a href="#">მოხალისეები</a>
 			    </h4>
@@ -404,7 +404,7 @@
 					<img src="themes/images/worker.png">
 				</div>
 			</div>
-			<div class="list_container">
+			<div class="projects_list_container">
 				<ul>
 					<li>
 						<a href="#">კონპონენტის მიზანი</a>	
@@ -492,7 +492,7 @@
 					<img src="themes/images/candidates.png">
 				</div>
 			</div>
-			<div class="list_container">
+			<div class="projects_list_container">
 				<ul>
 					<li>
 						<a href="#">კონპონენტის მიზანი</a>	
@@ -516,7 +516,7 @@
 					<img src="themes/images/love.png">
 				</div>
 			</div>
-			<div class="list_container">
+			<div class="projects_list_container">
 				<ul>
 					<li>
 						<a href="#">კონპონენტის მიზანი</a>	
@@ -554,17 +554,17 @@
 		</div>
 	</div>
 	<div class="project_container">
-		<div class="eight">
-			<div class="eight_image">
+		<div class="project_eight">
+			<div class="project_eight_image">
 				<img src="themes/images/group4.png">
 			</div>
-			<div class="eight_title">
+			<div class="project_eight_title">
 				<h5>
 					<a href="#">"რვას+1"</a>
 				</h5>
 			</div>
 		</div>
-		<div class="project_menu">
+		<div class="project_eight_menu">
 			<ul>
 				<li>
 					<a href="#">მიზანი</a>

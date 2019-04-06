@@ -9,7 +9,7 @@ $(document).ready(function(){
 		}); 
 	});
 	// სლაიდერი
-	$(".main_slider").slick({
+	$(".news_slider").slick({
 		autoplay: true,
 		dots: false,
 		arrows: true,

@@ -1,4 +1,4 @@
-section.front_slidernews{
+section.front_news{
 	div.container{
 		display: grid;
 	    grid-template-columns: 48% 52%;
@@ -35,7 +35,7 @@ section.front_slidernews{
 	    						border-radius: 50%;
 	    					}
 	    				}
-	    				div.list_item{
+	    				div.news_list_item{
 	    					margin-left: 20px;
 	    					align-self: center;
 	    					h5{
@@ -67,7 +67,7 @@ section.front_slidernews{
 	    		}
 	    	}
 	    }
-	    div.slider{
+	    div.news_slider{
 	    	em.fas.fa-angle-left.slick-arrow{
 	    		position: absolute;
 	    		top: 735px;
@@ -103,7 +103,7 @@ section.front_slidernews{
 	    		div.slick-slide{
 	    			display: flex;
 	    			justify-content: flex-end;
-	    			div.mainslider_item{
+	    			div.news_slider_item{
 	    				height: 945px;
 	    				div.poster_wrap{
 	    					width: 945px;
@@ -113,7 +113,7 @@ section.front_slidernews{
                                 height: 945px;
 	    					}
 	    				}
-	    				div.slide_inside{
+	    				div.inside_slide{
 	    					width: 830px;
                             height: 300px;
 	    					position: absolute;
@@ -123,7 +123,7 @@ section.front_slidernews{
 	    					flex-direction: column;
 	    				    background-color: #333;
 	    				    transition: all 1s ease;
-	    				    div.slide_title{
+	    				    div.news_slide_title{
 	    				    	margin: 45px 0 0 55px;
 	    				    	transition: none;
 	    				    	a{
@@ -147,7 +147,7 @@ section.front_slidernews{
 				                    }	
 	    				    	}
 	    				    }
-	    				    div.slide_paragraph{
+	    				    div.news_slide_paragraph{
 	    				    	margin: 30px 0 0 55px;
 	    				    	a{
 	    				    		color: $cwhite;
@@ -164,7 +164,7 @@ section.front_slidernews{
 	    			}
 	    		}
 	    	}
-	        div.slick-slide.slick-current.slick-active>div>div.mainslider_item>div.slide_inside{
+	        div.slick-slide.slick-current.slick-active>div>div.news_slider_item>div.inside_slide{
 	    	    left: -20px;
 	        }
 	    }
@@ -183,11 +183,11 @@ section.front_volunteers{
             align-items: center;
             margin-bottom: 110px;
 	    }
-	    div.slider_wrap{
+	    div.volunt_slider_wrap{
 		    max-width: 1500px;
 		    height: 470px;
 		    margin: 0 auto;
-		    div.slider_title{
+		    div.volunt_slider_title{
 			    margin-bottom: 50px;
 			    margin-left: 20px;
 			    h4{
@@ -430,7 +430,7 @@ section.front_projects{
 				}
 			}
 		}
-		div.list_container{
+		div.projects_list_container{
 			ul{
 				margin-top: 60px;
 				li{
@@ -474,7 +474,7 @@ section.front_projects{
 			div.top_container{
 				background-color: #E0E178;
 		    }
-		    div.list_container{
+		    div.projects_list_container{
 		    	li{
 		    		&::before{
 		    			background-image: url('../../themes/images/ellipse2.png');
@@ -487,7 +487,7 @@ section.front_projects{
 			div.top_container{
 				background-color: #720062;
 		    }
-		    div.list_container{
+		    div.projects_list_container{
 		    	li{
 		    		&::before{
 		    			background-image: url('../../themes/images/ellipse3.png');
@@ -571,16 +571,16 @@ section.front_projects{
 		width: 700px;
 		height: 350px;
 		margin: 110px 0 145px 20%;
-		div.eight{
+		div.project_eight{
 			border-top: solid 8px #333;
             border-left: solid 8px #333;
             border-top-left-radius: 25px;
             box-shadow: 6px 7px 24px -16px #333;
             background-color: $cwhite;
-			div.eight_image{
+			div.project_eight_image{
 				margin: 80px 90px 30px 90px;
 			}
-			div.eight_title{
+			div.project_eight_title{
 				display: flex;
                 justify-content: center;
 				h5{
@@ -596,7 +596,7 @@ section.front_projects{
 				}
 			}
 		}
-		div.project_menu{
+		div.project_eight_menu{
 			display: flex;
 			align-self: center;
 			margin: 0 auto;

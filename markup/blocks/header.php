@@ -26,41 +26,41 @@
 <header class="trans-all-4">
 	<div class="logo_container">
 		<div class="logo">
-			<a href="#">
+			<a href="index.php">
 				<img src="themes/images/logo.png" alt="ახალგაზრდა პედაგოგთა კავშირი" title="ახალგაზრდა პედაგოგთა კავშირი">
 			</a>
 		</div>
 	</div>
-	<div class="menu_lang">
+	<div class="menu_tools">
 		<nav class="navigation">
 			<ul>
 				<li>
-					<a href="#">მთავარი</a>
+					<a href="#" title="მთავარი">მთავარი</a>
 				</li>
 				<li>
-					<a href="#">სიახლეები</a>
+					<a href="#" title="სიახლეები">სიახლეები</a>
 				</li>
 				<li>
-					<a href="#">პედაგოგები</a>
+					<a href="#" title="პედაგოგები">პედაგოგები</a>
 				</li>
 				<li>
-					<a href="#">სასწავლო ცენტრი</a>
+					<a href="#" title="სასწავლო ცენტრი">სასწავლო ცენტრი</a>
 				</li>
 				<li>
-					<a href="#">ჩვენ შესახებ</a>
+					<a href="#" title="ჩვენ შესახებ">ჩვენ შესახებ</a>
 				</li>
 				<li>
-					<a href="#">კონტაქტი</a>
+					<a href="#" title="კონტაქტი">კონტაქტი</a>
 				</li>
 			</ul>
 		</nav>
 		<div class="lang">
 			<ul>
 				<li class="active">
-					<a href="#">ge</a>
+					<a href="#" title="Georgian">ge</a>
 				</li>
 				<li>
-					<a href="#">en</a>
+					<a href="#" title="English">en</a>
 				</li>				
 			</ul>
 		</div>
